@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="C:/Pessoal/Projetos/Visual/Testes/cadastro.css" rel="stylesheet"> 
+</head>
+<body>
+
+    <div class="contaner">
+    <header>
+   
+        <h1>Cadastro</h1>
+    </header>
+<main>
+
+<form>
+
+    <label>Nome</label>
+    <input class="m">
+    <label >CPF</label>    
+    <input id="cpf" placeholder="cpf" type="text" autocomplete="on" onkeyup="validaCPF('###.###.###-##', this)"/>
+    <label>RG</label>
+    <input class="m">
+    <label >Telefone</label>
+    <input class="m">
+
+
+
+    <button onclick="pegaDados()">Salvar</button>
+</form>
+
+</main>
+</div>
+
+<script type="text/javascript" src="C:/Pessoal/Projetos/Visual/Testes/cadastro.js"></script>
+</body>
+</html>
